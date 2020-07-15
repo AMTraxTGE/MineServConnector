@@ -4,3 +4,9 @@ version: ${project.version}
 author: ${author}
 description: ${project.description}
 api-version: 1.16
+commands:
+  MineServConnector:
+    aliases: [msc]
+    description: Shows version and connection status
+    permission: mineservconnector.mineservconnector
+    usage: /MineServConnector
